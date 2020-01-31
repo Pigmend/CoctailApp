@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="WOn-ri-bkW" customClass="FilterCell" customModule="CocktailApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOn-ri-bkW" id="1gl-wt-Bqk">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyQ-8b-vBt">
+                        <rect key="frame" x="28" y="0.0" width="347" height="44"/>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvm-YZ-yZi">
+                        <rect key="frame" x="28" y="41.5" width="347" height="2"/>
+                        <color key="backgroundColor" red="0.8469662070274353" green="0.84711211919784546" blue="0.84695702791213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="KoU-hx-mko"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tvm-YZ-yZi" secondAttribute="bottom" id="Adw-fc-Idx"/>
+                    <constraint firstItem="tvm-YZ-yZi" firstAttribute="leading" secondItem="nyQ-8b-vBt" secondAttribute="leading" id="ag3-Jc-Tjb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nyQ-8b-vBt" secondAttribute="bottom" id="0oX-uK-OVk"/>
+                <constraint firstItem="nyQ-8b-vBt" firstAttribute="leading" secondItem="WOn-ri-bkW" secondAttribute="leading" constant="28" id="7Tf-dT-DsE"/>
+                <constraint firstAttribute="trailing" secondItem="tvm-YZ-yZi" secondAttribute="trailing" id="JHI-CV-Ppx"/>
+                <constraint firstAttribute="trailing" secondItem="nyQ-8b-vBt" secondAttribute="trailing" id="nWw-bp-Rqf"/>
+                <constraint firstItem="nyQ-8b-vBt" firstAttribute="top" secondItem="WOn-ri-bkW" secondAttribute="top" id="zbI-kR-TgP"/>
+            </constraints>
+            <connections>
+                <outlet property="filterNameLabel" destination="nyQ-8b-vBt" id="tT4-rm-paa"/>
+            </connections>
+            <point key="canvasLocation" x="118" y="68"/>
+        </tableViewCell>
+    </objects>
+</document>

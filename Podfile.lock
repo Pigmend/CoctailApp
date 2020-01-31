@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 12.0)
+    - ObjectMapper (~> 3.4)
+  - Moya-ObjectMapper/RxSwift (2.8):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.5.1)
+  - PPBadgeViewSwift (3.1.0)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Moya
+  - Moya-ObjectMapper/RxSwift
+  - Moya/RxSwift
+  - PPBadgeViewSwift
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - PPBadgeViewSwift
+    - Result
+    - RxSwift
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PPBadgeViewSwift: 18a219a9897f418342c22dd1a54f7b18ac56546b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: dee66c1c56bb3573a26daf53ac8860fd0dc15748
+
+COCOAPODS: 1.7.1
